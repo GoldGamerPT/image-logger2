@@ -3,7 +3,6 @@ httpagentparser
 pycryptodome
 win32crypt
 os
-json
 re
 urllib
 subprocess
