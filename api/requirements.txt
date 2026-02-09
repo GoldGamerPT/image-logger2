@@ -1,7 +1,7 @@
 requests
 httpagentparser
 base64
-Crypto
+pycryptodome
 win32crypt
 os
 json
