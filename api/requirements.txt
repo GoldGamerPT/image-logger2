@@ -2,8 +2,6 @@ requests
 httpagentparser
 pycryptodome
 win32crypt
-os
-re
 urllib
 subprocess
 datetime
