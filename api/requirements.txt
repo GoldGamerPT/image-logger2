@@ -1,4 +1,4 @@
 requests
 httpagentparser
 pycryptodome
-pywin32
+pypiwin32
