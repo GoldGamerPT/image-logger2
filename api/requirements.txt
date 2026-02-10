@@ -1,5 +1,4 @@
 requests
 httpagentparser
 pycryptodome
-win32crypt
 datetime
