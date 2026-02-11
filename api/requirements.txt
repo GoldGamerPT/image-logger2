@@ -1,5 +1,3 @@
 requests
 httpagentparser
-pycryptodome
-pypiwin32
 dhooks
